@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    background-color: #090909;
+}
+
+.about{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div {
+    overflow: hidden;
+    background-color: #111;
+  }
+
+footer {
+    background-color: #090909;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Header */
+.header{
+    float: left;
+    height: 150px;
+    width: 350px;
+    padding: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090909;
+  }
+  
+  li {
+    float: left;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  li a:hover {
+    text-decoration: none;
+    background-color: #111;
+    color: red;
+  }
+
+/* Home Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #111;
+    padding: 10px;
+  }
+  .grid-item{
+    height: 360px;
+    width: 340px;
+  }
+  .grid-item-text{
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 2px;
+  }
+
+/* About Grid */
+  .grid-container-about{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #111;
+    padding: 20px;
+  }
+  .grid-item-about{
+      height: 350px;
+      width: 680px;
+  }
+
+  /* Slideshow */
+@keyframes Slideshow{
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -25%;
+    }
+    45%{
+        left: -25%;
+    }
+    50%{
+        left: -50%;
+    }
+    70%{
+        left: -50%;
+    }
+    75%{
+        left: -25%;
+    }
+    95%{
+        left: -25%;
+    }
+    100%{
+        left: -0%;
+    }
+}
+#slideshow{
+    overflow: hidden;
+}
+#slideshow figure img{
+    width: 15%;
+    padding: 5px;
+}
+#slideshow figure{
+    position: relative;
+    width: 200%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    animation: 10s Slideshow infinite;
+}
+
+/* Tablet Size */
+@media only screen and (max-width: 414px) {
+
+}
+
+/* Phone Size */
+@media only screen and (max-width: 414px) {
+
+}
