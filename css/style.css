@@ -6,6 +6,13 @@ body {
     color: white;
     text-align: center;
     background-color: #090909;
+    padding-top: 5px;
+}
+.title-about{
+    color: white;
+    text-align: center;
+    background-color: #090909;
+    padding-top: 25px;
 }
 
 .about{
