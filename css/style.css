@@ -103,6 +103,32 @@ ul {
       width: 680px;
   }
 
+/* Sessions Grid */
+.grid-container-sessions {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  background-color: #111;
+  padding: 10px;
+}
+
+.grid-item-text-sessions{
+  /* height: 50px; */
+  /* text-align: center; */
+  color: white;
+  font-size: 30px;
+  padding-top: 2px;
+  float: left;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  font-size: 20px;
+}
+
   /* Slideshow */
 @keyframes Slideshow{
     0% {
