@@ -113,8 +113,6 @@ ul {
 }
 
 .grid-item-text-sessions{
-  /* height: 50px; */
-  /* text-align: center; */
   color: white;
   font-size: 30px;
   padding-top: 2px;
@@ -127,6 +125,33 @@ p {
 
 a {
   font-size: 20px;
+}
+
+/* Prices/Bookings */
+.container-tickets {
+  background-color: #090909;
+  /* overflow: hidden; */
+}
+
+.ticket-content {
+  color: white;
+  background-color: #111;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Price */
+.table-price {
+  width: 100%;
+  font-size: 24px;
+}
+
+td {
+padding-right: 100px;
+text-decoration: underline;
 }
 
   /* Slideshow */
