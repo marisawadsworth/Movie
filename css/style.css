@@ -154,6 +154,35 @@ padding-right: 100px;
 text-decoration: underline;
 }
 
+/* Bookings */
+.suggestions {
+    font-size: 26px;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: none;
+    background: #111;
+    border: none;
+    color: white;
+    border: 1px white solid;
+    display: table;
+    grid-gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    cursor: pointer;
+  }
+
+.suggestions:hover {
+    background: #090909;
+    width: 100%;
+  }
+
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
   /* Slideshow */
 @keyframes Slideshow{
     0% {
