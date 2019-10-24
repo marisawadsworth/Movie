@@ -191,7 +191,18 @@ button:hover {
 }
 
 /* Contact */
+.Contact-Us{
+  padding: 25px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+}
 
+.Contact-Image {
+  float: right;
+  width: 550px;
+  height: 300px;
+}
 
   /* Slideshow */
 @keyframes Slideshow{
