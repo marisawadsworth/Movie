@@ -204,6 +204,11 @@ button:hover {
   height: 300px;
 }
 
+/* Contact React Form */
+/* .contact_container {
+  color: white;
+} */
+
   /* Slideshow */
 @keyframes Slideshow{
     0% {
@@ -249,6 +254,7 @@ button:hover {
     font-size: 0;
     animation: 10s Slideshow infinite;
 }
+
 
 /* Tablet Size */
 @media only screen and (max-width: 414px) {
