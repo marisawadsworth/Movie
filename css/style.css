@@ -205,9 +205,30 @@ button:hover {
 }
 
 /* Contact React Form */
-/* .contact_container {
+.contact_container {
   color: white;
-} */
+  text-align: center;
+}
+
+.contact-input {
+  width: 90%;
+  font-size: 14pt;
+  height: 50px;
+}
+
+.contact-input-message {
+  width: 90%;
+  font-size: 14pt;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.contact-input-button {
+  width: 90%;
+  font-size: 14pt;
+  /* color: black; */
+  /* background-color: white; */
+}
 
   /* Slideshow */
 @keyframes Slideshow{
